@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-image: url(bg\ image.jpg); 
+    background-position:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(148, 141, 141);
+    margin: 30px 0 50px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 100px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery img {
+    width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
